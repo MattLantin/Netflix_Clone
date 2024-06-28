@@ -11,8 +11,16 @@
 # production
 /build
 
+#ignore the credentials folder 
+firebase.js
+firebase.json
+.firebase
+.firebaserc
+
+
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
