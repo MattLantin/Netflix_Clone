@@ -1,20 +1,17 @@
-import React from "react";
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import Navbar from './Navbar';
 
 function HomeScreen() {
-    return (
-        <mainDiv>
-            
-        </mainDiv>
-    )
+  return (
+    <HomePage>
+      <Navbar />
+      {/* banner */}
+      {/* rows */}
+    </HomePage>
+  );
 }
 
 export default HomeScreen;
 
-
-
-
-const mainDiv = styled.div 
-`
-    
-`
+const HomePage = styled.div``;
